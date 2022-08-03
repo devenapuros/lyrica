@@ -1,0 +1,99 @@
+.container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container .card {
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.7rem;
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Logo */
+.container nav .left {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Middle */
+.container nav .middle {
+    width: 43%;
+}
+
+.container nav .middle form {
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    /* width: 70%; */
+}
+
+.container nav .middle form input {
+    display: flex;
+    min-width: 0;
+    border: 0;
+    outline: none;
+    background-color: #eee;
+}
+
+.container nav .middle form .divider {
+    display: block;
+    margin: 0 0.5rem;
+    padding: 0;
+    border-left: 1px solid #ccc;
+    height: 1.3rem;
+}
+
+.container nav .middle form .actions-form {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    transition: color 300ms ease;
+}
+
+.container nav .middle form .actions-form:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Right */
+.container nav .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main */
+
+.container main.main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 46% 30%;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    column-gap: 1.5rem;
+    height: calc(100% - 4.7rem);
+    overflow-y: scroll;
+}

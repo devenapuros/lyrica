@@ -1,0 +1,39 @@
+/* Lyric */
+main .lyric-container header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+main .lyric-container header .artist-photo {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 0.8rem;
+}
+
+main .lyric-container header .artist-photo img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 50%;
+}
+
+main .lyric-container header .song-data h1 {
+    text-transform: capitalize;
+    margin-bottom: -0.1rem;
+    color: #e48c00;
+}
+
+main .lyric-container header .song-data small {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+main .lyric-container .lyric {
+    font-size: 0.9rem;
+    color: #222;
+    white-space: pre-wrap;
+}

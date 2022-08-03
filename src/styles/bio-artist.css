@@ -1,0 +1,55 @@
+/* Artist info */
+
+main .artist-info-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    height: fit-content;
+}
+
+.artist-info-container .artist-image {
+    width: 100%;
+    height: auto;
+}
+
+.artist-info-container .artist-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.artist-info-container h3 {
+    margin: 0.1rem 0 0.8rem 0;
+    color: #333;
+}
+
+.artist-info-container .artist-bio h5 {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.artist-info-container .artist-bio {
+    font-size: 0.8rem;
+    color: #444;
+    margin-top: 0.8rem;
+}
+
+.bio-not-found {
+    margin: 4rem 0;
+    align-items: center;
+    text-align: center;
+}
+
+.artist-info-container .bio-not-found .not-found-icon {
+    font-size: 7rem;
+    color: #aaa;
+}
+
+.artist-info-container .bio-not-found .not-found-text {
+    color: #666;
+}

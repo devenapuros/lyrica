@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero main form {
+        max-width: 92%;
+    }
+
+    .tops {
+        flex-direction: column;
+    }
+
+    .tops .artists-container {
+        margin-top: 2.5rem;
+    }
+
+    .tops .songs-container .top-songs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tops .artists-container .top-artists {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tops .songs-container .top-songs .song,
+    .tops .artists-container .top-artists .artist {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    footer .sections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .sections .brand-section,
+    footer .sections .songs-section {
+        margin-bottom: 2rem;
+    }
+
+    .hero nav .right {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hero main form {
+        max-width: 85%;
+    }
+
+    .hero nav .right {
+        display: none;
+    }
+
+    .tops {
+        flex-direction: column;
+    }
+
+    .tops .artists-container {
+        margin-top: 2.5rem;
+    }
+
+    .tops .songs-container .top-songs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tops .artists-container .top-artists {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tops .songs-container .top-songs .song,
+    .tops .artists-container .top-artists .artist {
+        max-width: 40vw;
+        height: auto;
+    }
+
+    footer .sections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .sections .brand-section,
+    footer .sections .songs-section {
+        margin-bottom: 2rem;
+    }
+
+    .hero nav .right {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .hero main form {
+        max-width: 75%;
+    }
+
+    .tops {
+        flex-direction: column;
+    }
+
+    .tops .artists-container {
+        margin-top: 2.5rem;
+    }
+
+    .tops .songs-container .top-songs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tops .artists-container .top-artists {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tops .songs-container .top-songs .song,
+    .tops .artists-container .top-artists .artist {
+        max-width: 18rem;
+    }
+
+    footer .sections {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero nav .right {
+        display: block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+    .tops {
+        flex-direction: row;
+    }
+
+    .tops .artists-container .top-artists {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .sections {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tops .songs-container .top-songs .song,
+    .tops .artists-container .top-artists .artist {
+        max-width: 20rem;
+    }
+
+    .hero nav .right {
+        display: block;
+    }
+}

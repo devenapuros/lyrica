@@ -1,0 +1,23 @@
+/* > Close button */
+.container nav .right .close-btn {
+    /* position: absolute;
+    right: -1.9rem;
+    z-index: 100; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    /* background-color: #f39c12;
+    color: white; */
+    transition: background-color 300ms ease;
+}
+
+.container nav .right .close-btn:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
